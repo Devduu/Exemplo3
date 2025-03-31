@@ -52,6 +52,33 @@ console.log(texto.indexOf(""))
 
 // Slice = retorna um trecho de texto com inicio e final
 let info = "processamento de ponta";
-console.log(info.slice(16,25))
+console.log(info.slice(16, 25))
+
+// Operadores aritimeticos
+const num1 = 10;
+const num2 = 20;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+// Operadores logicos
+
+const num3 = 10;
+const num4 = 20;
+
+console.log(num3 < num4);
+console.log(num3 > num4 && num4 < num3);
+console.log(num3 < num4 || num4 < num3);
+
+// Operadores de comparacao
+console.log(num3 == num4);
+console.log(num3 === num4);
+
+
+
+
+
 
 
